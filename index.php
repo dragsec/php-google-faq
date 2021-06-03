@@ -12,18 +12,24 @@ $questions = include("domande.php");
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <!-- test -->
-    <h2> test <br>
+    
+    <div class="navbar clearfix">
+        <ul class="horiz">
+            <li>Introduzione</li>
+            <li>Norme sulla privacy</li>
+            <li>Termini di servizio</li>
+            <li>Tecnologie</li>
+            <li class="blue">Domande frequenti</li>  
+        </ul> 
+    </div>
+
+    <div class="faq"> 
         <?php foreach ($questions as $info) { ?>
             <h2><?php echo $info['question'] ?></h2>
             <p><?php echo nl2br($info['answer']); ?></p>
             <br>
         <?php } ?>
-    </h2>
+    </div>
 
-            <div class="test">
-                sssssssss
-            </div>
-<!-- test -->
 </body>
 </html>

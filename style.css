@@ -4,8 +4,40 @@
     box-sizing: border-box;
 }
 
-.test{
-    height: 200px;
-    background-color: pink;
+.navbar{
+    padding-top: 50px;
+    border-bottom: solid 1px;
 }
+
+.faq{
+    padding: 50px 250px;
+}
+
+
+
+.blue{
+    color: blue;
+    border-bottom: solid 1px;
+}
+
+ul>li{
+    height: 25px;
+    margin: 0 20px;
+    float: left;
+}
+.horiz{
+    list-style-type: none;
+    overflow: hidden;
+    margin: 0;
+}
+
+
+
+
+.clearfix::after{
+    content: "";
+    display: table;
+    clear: both;  
+}
+
 
