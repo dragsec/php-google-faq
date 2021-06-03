@@ -1,5 +1,6 @@
 <?php 
-$questions = include("domande.php");
+include "domande.php";
+
 ?>
 
 <!DOCTYPE html>
